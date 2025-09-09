@@ -3038,6 +3038,16 @@ td:last-child {
 }
 
 /* ------------------------------------------------------------------- 
+ * ## font
+ * ------------------------------------------------------------------- */
+    ul,
+    li,
+    p {
+        font-family: "Times New Roman", Times, serif;
+    }
+
+ 
+/* ------------------------------------------------------------------- 
  * ## social list
  * ------------------------------------------------------------------- */
 .social-list {
@@ -3100,6 +3110,26 @@ td:last-child {
 
 .swiper-container .swiper-pagination-bullet:only-child {
     visibility: hidden;
+}
+
+
+/* CSS untuk memperbaiki tampilan tombol gambar */
+.header-contact__num {
+    background: none; /* Menghilangkan background tombol default */
+    border: none; /* Menghilangkan border tombol default */
+    padding: 0; /* Menghilangkan padding agar gambar mengisi area */
+    display: flex; /* Menggunakan flexbox untuk penataan */
+    justify-content: center; /* Memusatkan gambar secara horizontal */
+    align-items: center; /* Memusatkan gambar secara vertikal */
+    height: 48px; /* Mengatur tinggi tombol agar ada ruang */
+    width: 48px; /* Mengatur lebar tombol agar simetris */
+}
+
+.header-contact__num img {
+    height: 32px; /* Mengatur ukuran gambar agar lebih besar */
+    width: 32px; /* Mengatur lebar gambar agar kotak */
+    object-fit: contain; /* Memastikan gambar tidak terdistorsi dan berada di dalam bingkai kotak */
+    border-radius: 0; /* Menghilangkan radius sudut agar gambar tidak bulat */
 }
 
 /* ------------------------------------------------------------------- 
