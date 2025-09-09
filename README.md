@@ -2,7 +2,7 @@
 
 1. Clone from Github 
 ```
-git clone https://github.com/themewagon/Lounge.git
+git clone https://github.com/naila050509/Web-Sejarah.git
 ```
 
 2. Menambahkan Semua Perubahan
